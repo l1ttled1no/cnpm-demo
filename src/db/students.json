@@ -1,10 +1,10 @@
 {
   "students": [
     {
-      "student_id": "2110XXXX",
-      "name": "Nguyen Van A",
-      "student_bknetid": "1234",
-      "password": "123456",
+      "student_id": "2252116",
+      "name": "Nguyễn Đăng Duy",
+      "student_bknetid": "duy.nguyendang04",
+      "password": "abc123",
       "user_role": "student",
       "booking_history": [
         {
@@ -76,10 +76,10 @@
       ]
     },
     {
-      "student_id": "2110YYYY",
-      "name": "Tran Thi B",
-      "student_bknetid": "5678",
-      "password": "654321",
+      "student_id": "2252333",
+      "name": "Phạm Nguyễn Hải Khánh",
+      "student_bknetid": "khanh.phampnhk0511",
+      "password": "abc123",
       "user_role": "student",
       "booking_history": [
         {
@@ -127,10 +127,10 @@
       ]
     },
     {
-      "student_id": "2110ZZZZ",
-      "name": "Le Van C",
-      "student_bknetid": "9012",
-      "password": "987654",
+      "student_id": "2252001",
+      "name": "Bùi Thái An",
+      "student_bknetid": "an.buithai2108",
+      "password": "abc123",
       "user_role": "student",
       "booking_history": [
         {
