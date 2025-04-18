@@ -1,0 +1,184 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #C8D9ED;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Hero Section */
+.heroSection {
+  background-color: #FFFFFF;
+  width: 100%;
+  padding: 5rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 2rem; 
+  margin-bottom: 1rem;
+}
+
+.heroContent {
+  max-width: 600px;
+  text-align: center;
+}
+
+.heroContent h1 {
+  font-size: 2.5rem;
+  color: #1a365d;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #4a5568;
+  margin-bottom: 2rem;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.heroImage {
+  max-width: 500px;
+}
+
+.heroImage img {
+  width: 100%;
+  height: auto;
+}
+
+/* Info Section */
+.infoSection {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 2rem;
+  margin-bottom: 4rem;
+}
+
+.features {
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  padding: 3rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.features h2 {
+  color: #1a365d;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.featureItem {
+  text-align: center;
+}
+
+.featureItem h3 {
+  color: #2b6cb0;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.featureItem p {
+  color: #4a5568;
+  line-height: 1.6;
+}
+
+.systemInfo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.infoCard {
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.infoCard h2 {
+  color: #1a365d;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.infoCard ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.infoCard li {
+  color: #4a5568;
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.infoCard li:before {
+  content: "•";
+  color: #2b6cb0;
+  position: absolute;
+  left: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .heroSection {
+    flex-direction: column;
+    padding: 3rem 1.5rem;
+    gap: 2rem;
+  }
+
+  .heroContent {
+    max-width: 100%;
+  }
+
+  .heroContent h1 {
+    font-size: 2rem;
+  }
+
+  .featureGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .systemInfo {
+    grid-template-columns: 1fr;
+  }
+
+  .heroImage {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 640px) {
+  .buttonGroup {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .heroContent h1 {
+    font-size: 1.8rem;
+  }
+} 

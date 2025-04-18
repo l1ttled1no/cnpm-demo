@@ -1,0 +1,33 @@
+.pageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  position: relative;
+  z-index: 1;
+}
+
+.timeDisplay {
+  font-size: 0.875rem;
+  color: #1a237e;
+  font-weight: 500;
+}
+
+.welcome {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1a237e;
+}
+
+@media (max-width: 768px) {
+  .pageHeader {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+    padding: 1rem;
+  }
+} 

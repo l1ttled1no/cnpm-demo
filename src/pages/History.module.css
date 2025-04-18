@@ -1,0 +1,6 @@
+.historyPage {
+  padding: 20px;
+  min-height: calc(100vh - 64px);
+  background-color: #f5f7fa;
+  margin-top: 64px; /* Add margin-top to account for fixed navbar */
+} 

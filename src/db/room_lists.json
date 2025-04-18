@@ -1,0 +1,299 @@
+{
+  "rooms": [
+    {
+      "room_id": "B1-301",
+      "building": "B1",
+      "floor": 3,
+      "capacity": 30,
+      "room_picture": "/assets/room_picture/image1.jpg",
+      "services": {
+        "ethernet": true,
+        "projector": true,
+        "whiteboard": true,
+        "ac": true,
+        "computers": 0,
+        "power_outlets": 15
+      },
+      "booked_slots": [
+        {
+          "date": "23/03/2025",
+          "time": "07:00-08:00",
+          "booked_by": "2110XXXX"
+        },
+        {
+          "date": "23/03/2025",
+          "time": "13:00-14:00",
+          "booked_by": "2110YYYY"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "room_id": "B4-201",
+      "building": "B4",
+      "floor": 2,
+      "capacity": 50,
+      "room_picture": "/assets/room_picture/image2.jpg",
+      "services": {
+        "ethernet": true,
+        "projector": true,
+        "whiteboard": true,
+        "ac": true,
+        "computers": 25,
+        "power_outlets": 30,
+        "smart_board": true
+      },
+      "booked_slots": [
+        {
+          "date": "23/03/2025",
+          "time": "09:00-10:00",
+          "booked_by": "2110ZZZZ"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "room_id": "H1-401",
+      "building": "H1",
+      "floor": 4,
+      "capacity": 20,
+      "room_picture": "/assets/room_picture/image3.jpg",
+      "services": {
+        "ethernet": true,
+        "projector": false,
+        "whiteboard": true,
+        "ac": true,
+        "computers": 0,
+        "power_outlets": 10,
+        "discussion_tables": 4
+      },
+      "booked_slots": [],
+      "status": "available"
+    },
+    {
+      "room_id": "C4-102",
+      "building": "C4",
+      "floor": 1,
+      "capacity": 40,
+      "room_picture": "/assets/room_picture/image4.jpg",
+      "services": {
+        "ethernet": true,
+        "projector": true,
+        "whiteboard": true,
+        "ac": true,
+        "computers": 20,
+        "power_outlets": 25,
+        "printer": true
+      },
+      "booked_slots": [
+        {
+          "date": "24/03/2025",
+          "time": "14:00-15:00",
+          "booked_by": "2110WWWW"
+        }
+      ],
+      "status": "maintenance"
+    },
+    {
+      "room_id": "A2-303",
+      "building": "A2",
+      "floor": 3,
+      "capacity": 15,
+      "room_picture": "/assets/room_picture/image5.webp",
+      "services": {
+        "ethernet": true,
+        "projector": false,
+        "whiteboard": true,
+        "ac": true,
+        "computers": 0,
+        "power_outlets": 8,
+        "discussion_tables": 3,
+        "quiet_zone": true
+      },
+      "booked_slots": [],
+      "status": "available"
+    },
+    {
+      "room_id": "B2-502",
+      "building": "B2",
+      "floor": 5,
+      "capacity": 60,
+      "room_picture": "/assets/room_picture/image1.jpg",
+      "services": {
+        "ethernet": true,
+        "projector": true,
+        "whiteboard": true,
+        "ac": true,
+        "computers": 30,
+        "power_outlets": 40,
+        "smart_board": true,
+        "video_conference": true
+      },
+      "booked_slots": [
+        {
+          "date": "23/03/2025",
+          "time": "10:00-11:00",
+          "booked_by": "2110VVVV"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "room_id": "H2-201",
+      "building": "H2",
+      "floor": 2,
+      "capacity": 25,
+      "room_picture": "/assets/room_picture/image2.jpg",
+      "services": {
+        "ethernet": true,
+        "projector": true,
+        "whiteboard": true,
+        "ac": true,
+        "computers": 0,
+        "power_outlets": 15,
+        "discussion_tables": 5,
+        "presentation_screen": true
+      },
+      "booked_slots": [],
+      "status": "available"
+    },
+    {
+      "room_id": "C6-401",
+      "building": "C6",
+      "floor": 4,
+      "capacity": 35,
+      "room_picture": "/assets/room_picture/image3.jpg",
+      "services": {
+        "ethernet": true,
+        "projector": true,
+        "whiteboard": true,
+        "ac": true,
+        "computers": 18,
+        "power_outlets": 20,
+        "printer": true,
+        "scanner": true
+      },
+      "booked_slots": [
+        {
+          "date": "24/03/2025",
+          "time": "15:00-16:00",
+          "booked_by": "2110UUUU"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "room_id": "A1-501",
+      "building": "A1",
+      "floor": 5,
+      "capacity": 45,
+      "room_picture": "/assets/room_picture/image4.jpeg",
+      "services": {
+        "ethernet": true,
+        "projector": true,
+        "whiteboard": true,
+        "ac": true,
+        "computers": 23,
+        "power_outlets": 30,
+        "smart_board": true,
+        "video_conference": true,
+        "presentation_podium": true
+      },
+      "booked_slots": [],
+      "status": "available"
+    },
+    {
+      "room_id": "B3-301",
+      "building": "B3",
+      "floor": 3,
+      "capacity": 30,
+      "room_picture": "/assets/room_picture/image5.webp",
+      "services": {
+        "ethernet": true,
+        "projector": true,
+        "whiteboard": true,
+        "ac": true,
+        "computers": 15,
+        "power_outlets": 20,
+        "discussion_tables": 6,
+        "presentation_screen": true
+      },
+      "booked_slots": [
+        {
+          "date": "23/03/2025",
+          "time": "16:00-17:00",
+          "booked_by": "2110TTTT"
+        }
+      ],
+      "status": "available"
+    }
+  ],
+  "available_time_slots": [
+    "06:00-07:00",
+    "07:00-08:00",
+    "08:00-09:00",
+    "09:00-10:00",
+    "10:00-11:00",
+    "11:00-12:00",
+    "13:00-14:00",
+    "14:00-15:00",
+    "15:00-16:00",
+    "16:00-17:00",
+    "17:00-18:00",
+    "18:00-19:00",
+    "19:00-20:00",
+    "20:00-21:00"
+  ],
+  "buildings": [
+    {
+      "code": "A1",
+      "name": "Building A1",
+      "floors": 5
+    },
+    {
+      "code": "A2",
+      "name": "Building A2",
+      "floors": 4
+    },
+    {
+      "code": "B1",
+      "name": "Building B1",
+      "floors": 4
+    },
+    {
+      "code": "B2",
+      "name": "Building B2",
+      "floors": 5
+    },
+    {
+      "code": "B3",
+      "name": "Building B3",
+      "floors": 4
+    },
+    {
+      "code": "B4",
+      "name": "Building B4",
+      "floors": 4
+    },
+    {
+      "code": "C4",
+      "name": "Building C4",
+      "floors": 4
+    },
+    {
+      "code": "C6",
+      "name": "Building C6",
+      "floors": 4
+    },
+    {
+      "code": "H1",
+      "name": "Building H1",
+      "floors": 4
+    },
+    {
+      "code": "H2",
+      "name": "Building H2",
+      "floors": 4
+    }
+  ]
+} 

@@ -1,0 +1,168 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 2rem;
+  background-color: #1a365d;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+  filter: brightness(0) invert(1);
+}
+
+.logo h1 {
+  color: white;
+  font-size: 1.75rem;
+  font-weight: 750;
+}
+
+.navLinks {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  position: relative;
+}
+
+.navLink:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navLink.active {
+  background-color: rgba(255, 255, 255, 0.15);
+  font-weight: 600;
+}
+
+.navLink.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 24px;
+  height: 3px;
+  background-color: #4299e1;
+  border-radius: 2px;
+}
+
+.loginButtons {
+  display: flex;
+  gap: 1rem;
+  margin-left: 1rem;
+}
+
+.loginButton {
+  text-decoration: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+}
+
+.studentLogin {
+  background-color: #2b6cb0;
+  color: white;
+}
+
+.studentLogin:hover {
+  background-color: #1a4a80;
+}
+
+.staffLogin {
+  background-color: #4299e1;
+  color: white;
+}
+
+.staffLogin:hover {
+  background-color: #2b6cb0;
+}
+
+.userSection {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.userName {
+  color: white;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.logoutButton {
+  padding: 0.5rem 1.2rem;
+  background-color: #e53e3e;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.logoutButton:hover {
+  background-color: #c53030;
+}
+
+@media (max-width: 1024px) {
+  .navLinks {
+    gap: 1rem;
+  }
+
+  .loginButtons {
+    margin-left: 0.5rem;
+  }
+
+  .userSection {
+    margin-left: 0.5rem;
+    padding-left: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.75rem 1rem;
+  }
+
+  .logo h1 {
+    font-size: 1.5rem;
+  }
+
+  .navLink {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .userName {
+    display: none;
+  }
+} 
